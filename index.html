@@ -1,0 +1,351 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Stidy Zone</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js"></script>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+</head>
+<body>
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
+  <div class="container">
+    <!-- Logo and Brand -->
+    <a class="navbar-brand d-flex align-items-center" href="#">
+      <img src="images/logo.jpeg" alt="Logo" class="rounded-circle me-2" style="height: 40px; width: 40px; object-fit: cover;">
+      <span style="font-family: 'Georgia', serif; font-weight: 700; font-size: 1.5rem;">DreamersDesk</span>
+    </a>
+
+    <!-- Toggle button for mobile -->
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <!-- Navigation Links -->
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ms-auto">
+        <li class="nav-item"><a class="nav-link active" href="#home">Home</a></li>
+        <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+        <li class="nav-item"><a class="nav-link" href="#services">Facilities</a></li>
+        <li class="nav-item"><a class="nav-link" href="#gallery">Gallery</a></li>
+        <li class="nav-item"><a class="nav-link" href="#reviews">Reviews</a></li>
+        <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+
+  <!-- Hero Section -->
+  <header id="home" class="position-relative text-light">
+  <!-- Carousel background -->
+  <div id="headerCarousel" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="images/imgg.jpg" class="d-block w-100" alt="Library 1">
+      </div>
+      <div class="carousel-item">
+        <img src="images/imggg.jpg" class="d-block w-100" alt="Library 2">
+      </div>
+      <div class="carousel-item">
+        <img src="images/imgggg.jpg" class="d-block w-100" alt="Library 3">
+      </div>
+    </div>
+  </div>
+
+  <!-- Overlay for dark tint -->
+  <div class="position-absolute top-0 start-0 w-100 h-100 bg-dark opacity-50"></div>
+
+  <!-- Fixed text on left -->
+  <div class="position-absolute top-50 start-0 translate-middle-y ps-5 text-start z-2">
+    <h1 class="display-4 fw-bold">Welcome to Dreamers Desk</h1>
+    <h2>Library Cum Study Hall</h2>
+    <p class="lead">A peaceful and resourceful environment to enhance your knowledge.</p>
+  </div> 
+</header>
+
+  <!-- About Section -->
+ <section id="about" class="py-5 bg-light">
+  <div class="container">
+    <div class="row align-items-center">
+      <div class="col-md-6 mb-4 mb-md-0">
+        <img src="images/img8.jpeg" alt="Dreamers Desk Study Centre" class="img-fluid rounded shadow">
+      </div>
+      <div class="col-md-6">
+        <h2 class="text-primary mb-3">About Dreamers Desk</h2>
+        <p class="lead">
+          <strong>Dreamers Desk</strong> is a modern library cum study centre started in <strong>2024</strong> with a mission to provide a calm, resourceful, and focused environment for students preparing for various competitive exams like <em>MBBS, Engineering, UPSC, Coding</em> and more.
+        </p>
+        <p>
+          We aim to offer students a <strong>friendly, accessible, and favorable environment</strong> to boost their productivity and learning. Located right along the roadside, the centre is easily reachable via public and private transport.
+        </p>
+        <p>
+          With <strong>free Wi-Fi</strong>, fully air-conditioned rooms, <strong>24×7 power backup</strong>, and personal desks, we are committed to delivering the best facilities for serious learners.
+        </p>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+  <!-- Services/Facilities Section -->
+ <!-- Facilities Section -->
+<section id="services" class="bg-light py-5">
+  <div class="container">
+    <h2 class="text-center mb-5 fw-bold">Our Facilities</h2>
+    <div class="row g-4">
+
+      <!-- Facility Card -->
+      <div class="col-md-4">
+        <div class="card h-100 shadow-sm border-0 text-center p-4">
+          <i class="bi bi-wifi h1 text-primary"></i>
+          <h5 class="mt-3">Free Wi-Fi</h5>
+          <p class="text-muted">High-speed internet throughout the center for seamless learning.</p>
+        </div>
+      </div>
+
+      <div class="col-md-4">
+        <div class="card h-100 shadow-sm border-0 text-center p-4">
+          <i class="bi bi-snow h1 text-primary"></i>
+          <h5 class="mt-3">Air Conditioning</h5>
+          <p class="text-muted">Fully air-conditioned environment for your comfort during long study hours.</p>
+        </div>
+      </div>
+
+      <div class="col-md-4">
+        <div class="card h-100 shadow-sm border-0 text-center p-4">
+          <i class="bi bi-lightning-charge-fill h1 text-primary"></i>
+          <h5 class="mt-3">Power Backup</h5>
+          <p class="text-muted">Uninterrupted power supply to keep you focused and stress-free.</p>
+        </div>
+      </div>
+
+      <div class="col-md-4">
+        <div class="card h-100 shadow-sm border-0 text-center p-4">
+          <i class="bi bi-person-workspace h1 text-primary"></i>
+          <h5 class="mt-3">Personal Study Desks</h5>
+          <p class="text-muted">Dedicated desks to ensure a private and distraction-free study space.</p>
+        </div>
+      </div>
+
+      <div class="col-md-4">
+        <div class="card h-100 shadow-sm border-0 text-center p-4">
+          <i class="bi bi-geo-alt-fill h1 text-primary"></i>
+          <h5 class="mt-3">Easy Roadside Access</h5>
+          <p class="text-muted">Centrally located and easy to reach via public and private transport.</p>
+        </div>
+      </div>
+
+      <div class="col-md-4">
+        <div class="card h-100 shadow-sm border-0 text-center p-4">
+          <i class="bi bi-car-front-fill h1 text-primary"></i>
+          <h5 class="mt-3">Parking Facility</h5>
+          <p class="text-muted">Safe and secure parking space for both two and four-wheelers.</p>
+        </div>
+      </div>
+
+      <div class="col-md-4">
+        <div class="card h-100 shadow-sm border-0 text-center p-4">
+          <i class="bi bi-journal-bookmark-fill h1 text-primary"></i>
+          <h5 class="mt-3">Library Access</h5>
+          <p class="text-muted">Access to a rich collection of books, magazines, and reference materials.</p>
+        </div>
+      </div>
+
+      <div class="col-md-4">
+        <div class="card h-100 shadow-sm border-0 text-center p-4">
+          <i class="bi bi-mortarboard-fill h1 text-primary"></i>
+          <h5 class="mt-3">Exam Resources</h5>
+          <p class="text-muted">Support for various competitive exams including UPSC, NEET, JEE, and more.</p>
+        </div>
+      </div>
+
+      <div class="col-md-4">
+        <div class="card h-100 shadow-sm border-0 text-center p-4">
+          <i class="bi bi-camera-video-fill h1 text-primary"></i>
+          <h5 class="mt-3">CCTV Surveillance</h5>
+          <p class="text-muted">24/7 monitoring for a secure and peaceful study environment.</p>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+
+  <!-- Gallery Section -->
+ <!-- Gallery Section -->
+<!-- Photo Gallery with See More -->
+<section id="gallery" class="bg-light py-5">
+  <div class="container">
+    <h2 class="text-center fw-bold mb-5">Photo Gallery</h2>
+
+    <div class="row g-4" id="photoGrid">
+
+      <!-- Visible Items -->
+      <div class="col-md-4 gallery-item">
+        <div class="card shadow-sm">
+          <img src="/images/img1.jpeg" class="card-img-top" alt="Photo 1">
+          <div class="card-body text-center"><h6>Study Room</h6></div>
+        </div>
+      </div>
+      <div class="col-md-4 gallery-item">
+        <div class="card shadow-sm">
+          <img src="/images/img6.jpeg" class="card-img-top" alt="Photo 2">
+          <div class="card-body text-center"><h6>Library View</h6></div>
+        </div>
+      </div>
+      <div class="col-md-4 gallery-item">
+        <div class="card shadow-sm">
+          <img src="/images/img2.jpeg" class="card-img-top" alt="Photo 3">
+          <div class="card-body text-center"><h6>Front Desk</h6></div>
+        </div>
+      </div>
+      <div class="col-md-4 gallery-item">
+        <div class="card shadow-sm">
+          <img src="/images/img3.jpeg" class="card-img-top" alt="Photo 4">
+          <div class="card-body text-center"><h6>Group Study</h6></div>
+        </div>
+      </div>
+      <div class="col-md-4 gallery-item">
+        <div class="card shadow-sm">
+          <img src="/images/img4.jpeg" class="card-img-top" alt="Photo 5">
+          <div class="card-body text-center"><h6>Outdoor Seating</h6></div>
+        </div>
+      </div>
+      <div class="col-md-4 gallery-item">
+        <div class="card shadow-sm">
+          <img src="/images/img5.jpeg" class="card-img-top" alt="Photo 6">
+          <div class="card-body text-center"><h6>Reception Area</h6></div>
+        </div>
+      </div>
+
+      <!-- Hidden Items by default -->
+      <div class="gallery-item col-md-4 d-none more-item">
+        <div class="card shadow-sm">
+          <img src="/images/img7.jpeg" class="card-img-top" alt="Photo 7">
+          <div class="card-body text-center"><h6>Photo 7</h6></div>
+        </div>
+      </div>
+      <div class="gallery-item col-md-4 d-none more-item">
+        <div class="card shadow-sm">
+          <img src="/images/img8.jpeg" class="card-img-top" alt="Photo 8">
+          <div class="card-body text-center"><h6>Photo 8</h6></div>
+        </div>
+      </div>
+      <!-- Repeat for 9 to 15 -->
+      <div class="gallery-item col-md-4 d-none more-item"><div class="card shadow-sm"><img src="/images/img9.jpeg" class="card-img-top" alt="Photo 9"><div class="card-body text-center"><h6>Photo 9</h6></div></div></div>
+      <div class="gallery-item col-md-4 d-none more-item"><div class="card shadow-sm"><img src="/images/img10.jpeg" class="card-img-top" alt="Photo 10"><div class="card-body text-center"><h6>Photo 10</h6></div></div></div>
+      <div class="gallery-item col-md-4 d-none more-item"><div class="card shadow-sm"><img src="/images/img1.jpeg" class="card-img-top" alt="Photo 11"><div class="card-body text-center"><h6>Photo 11</h6></div></div></div>
+      <div class="gallery-item col-md-4 d-none more-item"><div class="card shadow-sm"><img src="/images/img2.jpeg" class="card-img-top" alt="Photo 12"><div class="card-body text-center"><h6>Photo 12</h6></div></div></div>
+      <div class="gallery-item col-md-4 d-none more-item"><div class="card shadow-sm"><img src="/images/img3.jpeg" class="card-img-top" alt="Photo 13"><div class="card-body text-center"><h6>Photo 13</h6></div></div></div>
+      <div class="gallery-item col-md-4 d-none more-item"><div class="card shadow-sm"><img src="/images/img4.jpeg" class="card-img-top" alt="Photo 14"><div class="card-body text-center"><h6>Photo 14</h6></div></div></div>
+      <div class="gallery-item col-md-4 d-none more-item"><div class="card shadow-sm"><img src="/images/img5.jpeg" class="card-img-top" alt="Photo 15"><div class="card-body text-center"><h6>Photo 15</h6></div></div></div>
+
+    </div>
+
+    <!-- See More Button -->
+    <div class="text-center mt-4">
+      <button id="seeMoreBtn" class="btn btn-primary px-4">See More</button>
+    </div>
+  </div>
+</section>
+
+
+
+  <!-- Student Reviews Section -->
+<section id="reviews" class="bg-white py-5">
+  <div class="container">
+    <h2 class="text-center mb-5 fw-bold">What Our Students Say</h2>
+    <div class="row g-4">
+
+      <!-- Review Card -->
+      <div class="col-md-4">
+        <div class="card border-0 shadow-sm h-100 p-4">
+          <div class="d-flex align-items-center mb-3">
+            <img src="/images/IMG_20231220_112735.jpg" class="rounded-circle me-3" alt="Student Photo">
+            <div>
+              <h6 class="mb-0">Aabid farooq shah</h6>
+              <small class="text-muted">Software Engineer</small>
+            </div>
+          </div>
+          <p class="text-muted">“Dreamers Desk gave me the perfect environment for long study sessions. The peaceful vibe and AC desks are a blessing!”</p>
+          <div class="text-warning">
+            ★★★★★
+          </div>
+        </div>
+      </div>
+
+      <!-- Review Card -->
+      <div class="col-md-4">
+        <div class="card border-0 shadow-sm h-100 p-4">
+          <div class="d-flex align-items-center mb-3">
+            <img src="/images/IMG-20241209-WA0001.jpg" class="rounded-circle me-3" alt="Student Photo">
+            <div>
+              <h6 class="mb-0">Saifullah Tantray</h6>
+              <small class="text-muted">UPSC Candidate</small>
+            </div>
+          </div>
+          <p class="text-muted">“The library access and exam prep resources really helped me stay focused. It's the best self-study place in town.”</p>
+          <div class="text-warning">
+            ★★★★☆
+          </div>
+        </div>
+      </div>
+
+      <!-- Review Card -->
+      <div class="col-md-4">
+        <div class="card border-0 shadow-sm h-100 p-4">
+          <div class="d-flex align-items-center mb-3">
+            <img src="/images/IMG-20241210-WA0006.jpg" class="rounded-circle me-3" alt="Student Photo">
+            <div>
+              <h6 class="mb-0">Musadiq Farooq</h6>
+              <small class="text-muted">Engineering Prep</small>
+            </div>
+          </div>
+          <p class="text-muted">“Power backup and fast Wi-Fi make late-night prep easy. It feels safe and welcoming all the time.”</p>
+          <div class="text-warning">
+            ★★★★★
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+
+  <!-- Contact Section -->
+  <section id="contact" class="py-5">
+    <div class="container">
+      <h2 class="text-center mb-4">Contact Us</h2>
+      <form action="https://formspree.io/f/yourformid" method="POST" class="mx-auto" style="max-width: 600px;">
+        <div class="mb-3">
+          <label for="name" class="form-label">Name</label>
+          <input type="text" name="name" class="form-control" required>
+        </div>
+        <div class="mb-3">
+          <label for="email" class="form-label">Email</label>
+          <input type="email" name="email" class="form-control" required>
+        </div>
+        <div class="mb-3">
+          <label for="message" class="form-label">Message</label>
+          <textarea name="message" rows="4" class="form-control" required></textarea>
+        </div>
+        <button type="submit" class="btn btn-primary w-100">Send Message</button>
+      </form>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-dark text-light text-center py-3">
+    <p class="mb-0">&copy; 2025 StudyHub Library & Study Centre. All rights reserved.</p>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
